@@ -1,0 +1,52 @@
+NONE='none'
+BOLD='bold'
+UNDERLINE='underline'
+# RED='red'
+RED='#CC3802'
+# YELLOW='yellow'
+YELLOW='#FCA173'
+# GREEN='green'
+GREEN='#86BBD8'
+# CYAN='cyan'
+CYAN='#047E84'
+# BLUE='blue'
+BLUE='#33658A'
+# MAGENTA='magenta'
+MAGENTA='#DA627D'
+# BLACK='black'
+BLACK='#FFFFFF'
+
+ZSH_HIGHLIGHT_STYLES[default]="${NONE}"
+ZSH_HIGHLIGHT_STYLES[unknown-token]="fg=${RED},${BOLD}"
+ZSH_HIGHLIGHT_STYLES[reserved-word]="fg=${YELLOW}"
+ZSH_HIGHLIGHT_STYLES[suffix-alias]="fg=${GREEN},${UNDERLINE}"
+ZSH_HIGHLIGHT_STYLES[global-alias]="fg=${CYAN}"
+ZSH_HIGHLIGHT_STYLES[precommand]="fg=${GREEN},${UNDERLINE}"
+ZSH_HIGHLIGHT_STYLES[commandseparator]="${NONE}"
+ZSH_HIGHLIGHT_STYLES[autodirectory]="fg=${GREEN},${UNDERLINE}"
+ZSH_HIGHLIGHT_STYLES[path]="${UNDERLINE}"
+# ZSH_HIGHLIGHT_STYLES[path_pathseparator]=
+# ZSH_HIGHLIGHT_STYLES[path_prefix_pathseparator]=
+ZSH_HIGHLIGHT_STYLES[globbing]="fg=${BLUE}"
+ZSH_HIGHLIGHT_STYLES[history-expansion]="fg=${BLUE}"
+ZSH_HIGHLIGHT_STYLES[command-substitution]="${NONE}"
+ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter]="fg=${MAGENTA}"
+ZSH_HIGHLIGHT_STYLES[process-substitution]="${NONE}"
+ZSH_HIGHLIGHT_STYLES[process-substitution-delimiter]="fg=${MAGENTA}"
+ZSH_HIGHLIGHT_STYLES[single-hyphen-option]="${NONE}"
+ZSH_HIGHLIGHT_STYLES[double-hyphen-option]="${NONE}"
+ZSH_HIGHLIGHT_STYLES[back-quoted-argument]="${NONE}"
+ZSH_HIGHLIGHT_STYLES[back-quoted-argument-delimiter]="fg=${MAGENTA}"
+ZSH_HIGHLIGHT_STYLES[single-quoted-argument]="fg=${YELLOW}"
+ZSH_HIGHLIGHT_STYLES[double-quoted-argument]="fg=${YELLOW}"
+ZSH_HIGHLIGHT_STYLES[dollar-quoted-argument]="fg=${YELLOW}"
+ZSH_HIGHLIGHT_STYLES[rc-quote]="fg=${CYAN}"
+ZSH_HIGHLIGHT_STYLES[dollar-double-quoted-argument]="fg=${CYAN}"
+ZSH_HIGHLIGHT_STYLES[back-double-quoted-argument]="fg=${CYAN}"
+ZSH_HIGHLIGHT_STYLES[back-dollar-quoted-argument]="fg=${CYAN}"
+ZSH_HIGHLIGHT_STYLES[assign]="${NONE}"
+ZSH_HIGHLIGHT_STYLES[redirection]="fg=${YELLOW}"
+ZSH_HIGHLIGHT_STYLES[comment]="fg=${BLACK},${BOLD}"
+ZSH_HIGHLIGHT_STYLES[named-fd]="${NONE}"
+ZSH_HIGHLIGHT_STYLES[numeric-fd]="${NONE}"
+ZSH_HIGHLIGHT_STYLES[arg0]="fg=${GREEN}"
