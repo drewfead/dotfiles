@@ -7,6 +7,11 @@ export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
 export EDITOR=/usr/bin/vim
 
 # load secrets
+if [ ! -f "$HOME/.zshsecrets" ]; then
+  cat > $HOME/.zshsecrets << EOF
+export EXAMPLE_SECRET="example-value"
+EOF
+fi
 source $HOME/.zshsecrets
 
 # history
