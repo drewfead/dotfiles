@@ -2,6 +2,8 @@
 *
 # unignore directories to dive into them
 !*/
+# reignore unwanted directories
+**/.history/
 # explicitly unignore files
 !.gitconfig
 !.gitignore
