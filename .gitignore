@@ -1,0 +1,16 @@
+# ignore everything by default
+*
+# unignore directories to dive into them
+!*/
+# explicitly unignore files
+!.gitconfig
+!.gitignore
+!.ssh/config
+!.zprofile
+!.zsh-syntax-highlighting-styles
+!.zshaliases
+!.zshenv
+!.zshrc
+!config.omp.json
+# unignore file types
+!*.md

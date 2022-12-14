@@ -1,3 +1,5 @@
+# to abbreviate the color-swapping process I just took the default and changed the colors. 
+# the hexes chosen here don't have any real alignment with or baring on the color names.
 NONE='none'
 BOLD='bold'
 UNDERLINE='underline'
